@@ -1,9 +1,11 @@
-def my_hash_creator(key, value)
+def my_hash_creator(:name, "David")
   # return a hash that includes the key and value parameters passed into this method
-end
+  => { :name=>"David" }
+  end
 
 def read_from_hash(hash, key)
   # return the correct value using the hash and key parameters
+
 end
 
 def update_counting_hash(hash, key)
